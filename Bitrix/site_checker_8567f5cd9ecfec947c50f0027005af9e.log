@@ -1,0 +1,265 @@
+2018-Oct-17 09:30:19 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2018-Oct-17 09:30:19 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2018-Oct-17 09:30:19 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2018-Oct-17 09:30:19 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2018-Oct-17 09:30:19 Сохранение сессии (check_session): Ok
+50% done
+2018-Oct-17 09:30:19 Сохранение сессии (check_session): Ok
+Успешно
+2018-Oct-17 09:30:19 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2018-Oct-17 09:30:19 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2018-Oct-17 09:30:19 Работа с сокетами (check_socket): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:19 Выполнение агентов на cron (check_bx_crontab): Warning
+Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
+2018-Oct-17 09:30:19 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2018-Oct-17 09:30:19 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:19 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+2018-Oct-17 09:30:19 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:19 Настройки сайтов (check_sites): Ok
+Правильные
+2018-Oct-17 09:30:20 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2018-Oct-17 09:30:20 Размер стека и pcre.recursion_limit (check_pcre_recursion): Warning
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Замечание. Возможны проблемы в работе с длинными строками из-за системных ограничений
+2018-Oct-17 09:30:20 Загрузка файла (check_upload): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:20 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:20 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:20 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:20 Отправка почты (check_mail): Ok
+Успешно
+2018-Oct-17 09:30:21 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2018-Oct-17 09:30:21 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2018-Oct-17 09:30:21 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+2018-Oct-17 09:30:21 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:21 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+2018-Oct-17 09:30:21 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+2018-Oct-17 09:30:23 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+2018-Oct-17 09:30:26 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+2018-Oct-17 09:30:29 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+== Request ==
+GET /bitrix/admin/site_checker.php?test_type=memory_test&unique_id=cce2b6f694b8366c0a0e6502e8c18a1a&max=255 HTTP/1.1
+Host: p1.aaveryanov.newgrade.vpool
+
+
+== Response ==
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 17 Oct 2018 06:30:29 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+== Body ==
+<br />
+<b>Fatal error</b>:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 1052672 bytes) in <b>/home/CREAT0RS/a.averyanov/p1/htdocs/bitrix/modules/main/admin/site_checker.php</b> on line <b>132</b><br />
+
+==========
+
+Не менее 128 М
+2018-Oct-17 09:30:29 Работа с файлами кеша (check_cache): Ok
+Успешно
+2018-Oct-17 09:30:30 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2018-Oct-17 09:30:30 HTTP авторизация (check_http_auth): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:30 Создание и запуск файла (check_exec): Ok
+Connection to p1.aaveryanov.newgrade.vpool:80	Success
+
+Успешно
+2018-Oct-17 09:30:30 Функция getimagesize для swf (check_getimagesize): Warning
+Замечание. File not found: /home/CREAT0RS/a.averyanov/p1/htdocs/bitrix/modules/fileman/install/components/bitrix/player/mediaplayer/player
+2018-Oct-17 09:30:30 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2018-Oct-17 09:30:31 Время на БД и веб-сервере (check_mysql_time): Fail
+Ошибка! Время отличается на 10800 секунд
+2018-Oct-17 09:30:31 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2018-Oct-17 09:30:31 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2018-Oct-17 09:30:31 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=utf8, COLLATION=utf8_unicode_ci
+Успешно
+2018-Oct-17 09:30:31 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2018-Oct-17 09:30:34 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2018-Oct-17 09:30:50 Структура базы данных (check_mysql_table_structure): Ok
+1% done
+2018-Oct-17 09:30:50 Структура базы данных (check_mysql_table_structure): Ok
+3% done
+2018-Oct-17 09:31:02 Структура базы данных (check_mysql_table_structure): Ok
+5% done
+2018-Oct-17 09:31:08 Структура базы данных (check_mysql_table_structure): Ok
+7% done
+2018-Oct-17 09:31:09 Структура базы данных (check_mysql_table_structure): Ok
+9% done
+2018-Oct-17 09:31:09 Структура базы данных (check_mysql_table_structure): Ok
+11% done
+2018-Oct-17 09:31:20 Структура базы данных (check_mysql_table_structure): Ok
+13% done
+2018-Oct-17 09:31:20 Структура базы данных (check_mysql_table_structure): Ok
+15% done
+2018-Oct-17 09:31:59 Структура базы данных (check_mysql_table_structure): Ok
+17% done
+В таблице b_sonet_group отсутствует индекс IXF_SONET_GROUP (search_index)
+Не включен полнотекстовый индекс IXF_SONET_GROUP (search_index) для таблицы b_sonet_group
+В таблице b_sonet_log_index отсутствует индекс IXF_SONET_LOG_INDEX (content)
+Не включен полнотекстовый индекс IXF_SONET_LOG_INDEX (content) для таблицы b_sonet_log_index
+
+2018-Oct-17 09:32:24 Структура базы данных (check_mysql_table_structure): Ok
+19% done
+2018-Oct-17 09:33:38 Структура базы данных (check_mysql_table_structure): Ok
+21% done
+Не включен полнотекстовый индекс IXF_B_USER_INDEX_1 (search_user_content) для таблицы b_user_index
+Не включен полнотекстовый индекс IXF_B_USER_INDEX_2 (search_department_content) для таблицы b_user_index
+Не включен полнотекстовый индекс IXF_B_USER_INDEX_3 (search_admin_content) для таблицы b_user_index
+
+2018-Oct-17 09:33:48 Структура базы данных (check_mysql_table_structure): Ok
+23% done
+2018-Oct-17 09:33:49 Структура базы данных (check_mysql_table_structure): Ok
+25% done
+2018-Oct-17 09:33:55 Структура базы данных (check_mysql_table_structure): Ok
+26% done
+2018-Oct-17 09:33:55 Структура базы данных (check_mysql_table_structure): Ok
+28% done
+2018-Oct-17 09:34:01 Структура базы данных (check_mysql_table_structure): Ok
+30% done
+2018-Oct-17 09:34:14 Структура базы данных (check_mysql_table_structure): Ok
+32% done
+2018-Oct-17 09:34:16 Структура базы данных (check_mysql_table_structure): Ok
+34% done
+2018-Oct-17 09:34:28 Структура базы данных (check_mysql_table_structure): Ok
+36% done
+2018-Oct-17 09:34:28 Структура базы данных (check_mysql_table_structure): Ok
+38% done
+2018-Oct-17 09:34:30 Структура базы данных (check_mysql_table_structure): Ok
+40% done
+2018-Oct-17 09:34:55 Структура базы данных (check_mysql_table_structure): Ok
+42% done
+2018-Oct-17 09:35:03 Структура базы данных (check_mysql_table_structure): Ok
+44% done
+2018-Oct-17 09:35:11 Структура базы данных (check_mysql_table_structure): Ok
+46% done
+2018-Oct-17 09:35:15 Структура базы данных (check_mysql_table_structure): Ok
+48% done
+2018-Oct-17 09:35:15 Структура базы данных (check_mysql_table_structure): Ok
+50% done
+2018-Oct-17 09:35:16 Структура базы данных (check_mysql_table_structure): Ok
+51% done
+2018-Oct-17 09:35:16 Структура базы данных (check_mysql_table_structure): Ok
+53% done
+2018-Oct-17 09:35:25 Структура базы данных (check_mysql_table_structure): Ok
+55% done
+2018-Oct-17 09:35:32 Структура базы данных (check_mysql_table_structure): Ok
+57% done
+2018-Oct-17 09:35:35 Структура базы данных (check_mysql_table_structure): Ok
+59% done
+2018-Oct-17 09:35:35 Структура базы данных (check_mysql_table_structure): Ok
+61% done
+2018-Oct-17 09:35:45 Структура базы данных (check_mysql_table_structure): Ok
+63% done
+2018-Oct-17 09:36:10 Структура базы данных (check_mysql_table_structure): Ok
+65% done
+2018-Oct-17 09:36:28 Структура базы данных (check_mysql_table_structure): Ok
+67% done
+В таблице b_im_message отсутствует индекс IXF_IM_MESS_1 (message)
+Не включен полнотекстовый индекс IXF_IM_MESS_1 (message) для таблицы b_im_message
+
+2018-Oct-17 09:36:51 Структура базы данных (check_mysql_table_structure): Ok
+69% done
+2018-Oct-17 09:36:56 Структура базы данных (check_mysql_table_structure): Ok
+71% done
+2018-Oct-17 09:36:56 Структура базы данных (check_mysql_table_structure): Ok
+73% done
+2018-Oct-17 09:38:49 Структура базы данных (check_mysql_table_structure): Ok
+75% done
+2018-Oct-17 09:38:58 Структура базы данных (check_mysql_table_structure): Ok
+76% done
+2018-Oct-17 09:39:02 Структура базы данных (check_mysql_table_structure): Ok
+78% done
+2018-Oct-17 09:39:05 Структура базы данных (check_mysql_table_structure): Ok
+80% done
+2018-Oct-17 09:39:05 Структура базы данных (check_mysql_table_structure): Ok
+82% done
+2018-Oct-17 09:39:33 Структура базы данных (check_mysql_table_structure): Ok
+84% done
+В таблице b_sender_mailing_chain отсутствует индекс IXF_B_SENDER_MAILING_CHAIN_1 (search_content)
+Не включен полнотекстовый индекс IXF_B_SENDER_MAILING_CHAIN_1 (search_content) для таблицы b_sender_mailing_chain
+
+2018-Oct-17 09:39:33 Структура базы данных (check_mysql_table_structure): Ok
+86% done
+2018-Oct-17 09:39:34 Структура базы данных (check_mysql_table_structure): Ok
+88% done
+2018-Oct-17 09:39:52 Структура базы данных (check_mysql_table_structure): Ok
+90% done
+2018-Oct-17 09:39:52 Структура базы данных (check_mysql_table_structure): Ok
+92% done
+2018-Oct-17 09:39:59 Структура базы данных (check_mysql_table_structure): Ok
+94% done
+2018-Oct-17 09:40:03 Структура базы данных (check_mysql_table_structure): Ok
+96% done
+2018-Oct-17 09:40:13 Структура базы данных (check_mysql_table_structure): Ok
+98% done
+2018-Oct-17 09:40:13 Структура базы данных (check_mysql_table_structure): Fail
+CREATE FULLTEXT INDEX `IXF_SONET_GROUP` ON `b_sonet_group` (search_index);
+CREATE FULLTEXT INDEX `IXF_SONET_LOG_INDEX` ON `b_sonet_log_index` (content);
+CREATE FULLTEXT INDEX `IXF_IM_MESS_1` ON `b_im_message` (message);
+CREATE FULLTEXT INDEX `IXF_B_SENDER_MAILING_CHAIN_1` ON `b_sender_mailing_chain` (search_content);
+Ошибка! Структура базы данных имеет ошибки. Всего 11, автоматически могут быть исправлены: 11. Исправить

@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/local/components/qsoft/main.banner/templates/.default/script.js" => "1582016867323",)); ?>

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001539757806';
+$dateexpire = '001539801006';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:3:"SEL";a:5:{i:0;a:8:{s:10:"PRODUCT_ID";s:2:"87";s:4:"NAME";s:42:"Штаны Цветочная Поляна";s:14:"CATALOG_XML_ID";s:0:"";s:14:"PRODUCT_XML_ID";N;s:5:"PRICE";s:9:"4398.0000";s:9:"AVG_PRICE";s:13:"2199.00000000";s:8:"QUANTITY";s:6:"2.0000";s:8:"CURRENCY";s:3:"RUB";}i:1;a:8:{s:10:"PRODUCT_ID";s:2:"56";s:4:"NAME";s:38:"Штаны Полосатый Рейс";s:14:"CATALOG_XML_ID";s:0:"";s:14:"PRODUCT_XML_ID";N;s:5:"PRICE";s:9:"1999.0000";s:9:"AVG_PRICE";s:13:"1999.00000000";s:8:"QUANTITY";s:6:"1.0000";s:8:"CURRENCY";s:3:"RUB";}i:2;a:8:{s:10:"PRODUCT_ID";s:3:"138";s:4:"NAME";s:48:"Нижнее белье Огонек в Ночи";s:14:"CATALOG_XML_ID";s:0:"";s:14:"PRODUCT_XML_ID";N;s:5:"PRICE";s:9:"1499.0000";s:9:"AVG_PRICE";s:13:"1499.00000000";s:8:"QUANTITY";s:6:"1.0000";s:8:"CURRENCY";s:3:"RUB";}i:3;a:8:{s:10:"PRODUCT_ID";s:3:"135";s:4:"NAME";s:62:"Нижнее белье Ночь Морозных Узоров";s:14:"CATALOG_XML_ID";s:0:"";s:14:"PRODUCT_XML_ID";N;s:5:"PRICE";s:9:"1459.0000";s:9:"AVG_PRICE";s:13:"1459.00000000";s:8:"QUANTITY";s:6:"1.0000";s:8:"CURRENCY";s:3:"RUB";}i:4;a:8:{s:10:"PRODUCT_ID";s:3:"116";s:4:"NAME";s:49:"Нижнее белье Морская Волна";s:14:"CATALOG_XML_ID";s:0:"";s:14:"PRODUCT_XML_ID";N;s:5:"PRICE";s:9:"1299.0000";s:9:"AVG_PRICE";s:13:"1299.00000000";s:8:"QUANTITY";s:6:"1.0000";s:8:"CURRENCY";s:3:"RUB";}}s:6:"VIEWED";a:0:{}}}';
+return true;
+?>
